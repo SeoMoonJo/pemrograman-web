@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .card {
+        width: 45%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnay {
+    overflow: hidden;
+    background-color: #333;
+}
+/* Style the topnay link */
+.topnay a {
+    float: left;
+    display: block;
+    color: f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Create two unequal columns that float next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout -
+when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0%;
+    }
+}
+
+/* Responsive layout -
+when the screen is less than 400px wide, make the navigation link stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnay a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+    
+<div class="header">
+    <h1>Aldyth Website</h1>
+    <p>Welcome habibi</p>
+</div>
+
+<div class="topnay">
+    <a href="#">football</a>
+    <a href="#">game</a>
+    <a href="#">movie</a>
+    <a href="#" style="float:right">chat me</a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="container">
+            <div class="card">
+                <h2>Hola habibi</h2>
+                <h5>Enjoy this heaven, March 28, 2024</h5>
+                <img src="gmabar/diriku.jpg" alt="Gambar Profil">
+            </div>
+            <div class="card biodata">
+                <h1>About me</h1>
+                <p>Nim                      :A12.2022.06965</p>
+                <p>Nama                     :Aldyth Prabowo</p>
+                <p>Jenis Kelamin            :Laki-laki</p>
+                <p>Tempat dan Tanggal lahir :Kudus, 20 April 2004</p>
+                <p>Asal Sekolah             :SMAN 2 BAE NEGERI KUDUS</p>
+                <p>Alamat Tempat Tinggal    :Semarang</p>
+                <p>Email                    :aldythprabowo244@gmail.com</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        
+
+    </body>
+    </html>
+    
+            
+            
